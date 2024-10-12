@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rotobo", sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: aqua;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header-icon{
+    font-size: 30px;
+
+}
+
+header .header-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .header-right .logo{
+    font-size: 25px;
+}
+
+header .header-right .search{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+header .header-right .search input{
+    padding: 3px 5px;
+    background-color: unset;
+    border: none;
+    outline: none;
+}
+
+header .header-right .search input::placeholder{
+    color: black;
+}
